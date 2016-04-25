@@ -1572,6 +1572,190 @@ module.exports = function() {
         }
       ]
     },
+    '68': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Hör zu und ergänze! Verwende kann / kann nicht !',
+          image: 'pg68ex8',
+          trigger: {
+            button: {
+              top: '8%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '68%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Asculta si completeaza cu kann sau kann nicht. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '41.5%',
+                left: '17%',
+                width: '14%'
+              },
+              model: '',
+              solution: 'kann'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '41.5%',
+                left: '57%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'kann'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '45%',
+                left: '14%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'kann nicht'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '45%',
+                left: '54%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'kann'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '52%',
+                left: '16%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'kann'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '52%',
+                left: '58%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'kann nicht'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '55.4%',
+                left: '16%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'kann nicht'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '55.4%',
+                left: '52%',
+                width: '21%'
+              },
+              model: '',
+              solution: 'kann'
+            }
+          ]
+        },
+        {
+          type: 'typer',
+          title: 'Schreib die Fragen!',
+          image: 'pg68ex10',
+          trigger: {
+            button: {
+              top: '59%'
+            },
+            zone: {
+              top: '59%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie intrebarile corespunzatoare raspunsurilor date. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '35%',
+                left: '15%',
+                width: '42%'
+              },
+              model: '',
+              solution: 'Kannst du Tennis spielen'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '38.8%',
+                left: '15%',
+                width: '42%'
+              },
+              model: '',
+              solution: 'Kannst du Hockey spielen'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '44.7%',
+                left: '15%',
+                width: '42%'
+              },
+              model: '',
+              solution: 'Kannst du einen Brief schreiben'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '50.5%',
+                left: '15%',
+                width: '42%'
+              },
+              model: '',
+              solution: 'Kannst du Volleyball spielen'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '56.4%',
+                left: '15%',
+                width: '42%'
+              },
+              model: '',
+              solution: 'Kannst du turnen'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '60.1%',
+                left: '15%',
+                width: '42%'
+              },
+              model: '',
+              solution: 'Kannst du Klavier spielen'
+            }
+          ]
+        }
+      ]
+    },
     '69': {
       video: [
         {
