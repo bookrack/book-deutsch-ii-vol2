@@ -1266,6 +1266,655 @@ module.exports = function() {
             }
           }
         }
+      ],
+      exercise: [
+        {
+          type: 'type',
+          title: 'Schreib die Verben ins Kreuzworträtsel!',
+          image: 'pg50ex14',
+          trigger: {
+            button: {
+              top: '49%'
+            },
+            zone: {
+              top: '49%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie in careu cuvintele corespunzatoare numerelor ilustrate. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '36.4%',
+                left: '54%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '38.7%',
+                left: '54%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'p'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '41.1%',
+                left: '54%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '43.4%',
+                left: '54%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '45.7%',
+                left: '54%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'l'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '48%',
+                left: '54%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '50.4%',
+                left: '54%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '38.7%',
+                left: '42.4%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 't'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '41.1%',
+                left: '42.4%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'u'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '43.4%',
+                left: '42.4%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'r'
+            },
+            {
+              identifier: 'eleven',
+              position: {
+                top: '45.7%',
+                left: '42.4%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'twelve',
+              position: {
+                top: '48%',
+                left: '42.4%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'thirteen',
+              position: {
+                top: '50.4%',
+                left: '42.4%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'fourteen',
+              position: {
+                top: '38.7%',
+                left: '51%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'fifteen',
+              position: {
+                top: '38.7%',
+                left: '57%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'r'
+            },
+            {
+              identifier: 'sixteen',
+              position: {
+                top: '38.7%',
+                left: '60%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'seventeen',
+              position: {
+                top: '38.7%',
+                left: '63%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'eighteen',
+              position: {
+                top: '38.7%',
+                left: '65.8%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'ninteen',
+              position: {
+                top: '38.7%',
+                left: '68.8%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'twenty',
+              position: {
+                top: '38.7%',
+                left: '71.8%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'twentyone',
+              position: {
+                top: '43.4%',
+                left: '33.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'twentytwo',
+              position: {
+                top: '45.8%',
+                left: '33.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'twentythree',
+              position: {
+                top: '48%',
+                left: '33.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'twentyfour',
+              position: {
+                top: '50.3%',
+                left: '33.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'twentyfive',
+              position: {
+                top: '52.6%',
+                left: '33.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'twentysix',
+              position: {
+                top: '55%',
+                left: '33.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'twentyseven',
+              position: {
+                top: '43.4%',
+                left: '36.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'c'
+            },
+            {
+              identifier: 'twentyeight',
+              position: {
+                top: '43.4%',
+                left: '39.5%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'h'
+            },
+            {
+              identifier: 'twentynine',
+              position: {
+                top: '43.4%',
+                left: '45.2%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'thirty',
+              position: {
+                top: '43.4%',
+                left: '48.1%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'thirtyone',
+              position: {
+                top: '43.4%',
+                left: '51.1%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'b'
+            },
+            {
+              identifier: 'thirtytwo',
+              position: {
+                top: '43.4%',
+                left: '57%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'thirtythree',
+              position: {
+                top: '48.1%',
+                left: '51%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'l'
+            },
+            {
+              identifier: 'thirtyfour',
+              position: {
+                top: '48.1%',
+                left: '57%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'thirtyfive',
+              position: {
+                top: '48.1%',
+                left: '60%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'thirtysix',
+              position: {
+                top: '48.1%',
+                left: '63%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'thirtyseven',
+              position: {
+                top: '50.3%',
+                left: '60%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'thirtyeight',
+              position: {
+                top: '52.6%',
+                left: '60%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'thirtynine',
+              position: {
+                top: '54.9%',
+                left: '60%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'fourty',
+              position: {
+                top: '57.2%',
+                left: '60%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'fourtyone',
+              position: {
+                top: '52.6%',
+                left: '25%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'm'
+            },
+            {
+              identifier: 'fourtytwo',
+              position: {
+                top: '52.6%',
+                left: '27.9%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'a'
+            },
+            {
+              identifier: 'fourtythree',
+              position: {
+                top: '52.6%',
+                left: '30.8%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'l'
+            },
+            {
+              identifier: 'fourtyfour',
+              position: {
+                top: '52.6%',
+                left: '36.6%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'fourtyfive',
+              position: {
+                top: '52.6%',
+                left: '45.3%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 't'
+            },
+            {
+              identifier: 'fourtysix',
+              position: {
+                top: '54.9%',
+                left: '45.3%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'r'
+            },
+            {
+              identifier: 'fourtyseven',
+              position: {
+                top: '57.3%',
+                left: '45.3%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'fourtyeight',
+              position: {
+                top: '59.6%',
+                left: '45.3%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'fourtynine',
+              position: {
+                top: '61.8%',
+                left: '45.3%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'k'
+            },
+            {
+              identifier: 'fifty',
+              position: {
+                top: '64.1%',
+                left: '45.3%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'fiftyone',
+              position: {
+                top: '66.5%',
+                left: '45.3%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'fiftytwo',
+              position: {
+                top: '57.3%',
+                left: '39.2%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'z'
+            },
+            {
+              identifier: 'fiftythree',
+              position: {
+                top: '57.3%',
+                left: '42.2%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'fiftyfour',
+              position: {
+                top: '57.3%',
+                left: '48.1%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'c'
+            },
+            {
+              identifier: 'fiftyfive',
+              position: {
+                top: '57.3%',
+                left: '51.1%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'h'
+            },
+            {
+              identifier: 'fiftysix',
+              position: {
+                top: '57.3%',
+                left: '54.1%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'fiftyseven',
+              position: {
+                top: '57.3%',
+                left: '57.1%',
+                width: '2.9%',
+                height: '2.23%'
+              },
+              model: '',
+              solution: 'e'
+            }
+          ]
+        }
       ]
     },
     '51': {
@@ -1412,6 +2061,98 @@ module.exports = function() {
         }
       ]
     },
+    '57': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Was können die Kinder und was nicht?',
+          image: 'pg57ex3',
+          trigger: {
+            button: {
+              top: '8%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Priveste imaginile si si ce nu stiu copiii sa faca. si ce nu stiu copiii sa faca. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '37%',
+                left: '23.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'malen'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '40%',
+                left: '19%',
+                width: '29%'
+              },
+              model: '',
+              solution: 'Basketball spielen...'
+            },
+            {
+              identifier: 'three',
+              textarea: true,
+              textareaRows: 2,
+              position: {
+                top: '37%',
+                left: '63%',
+                width: '29%'
+              },
+              model: '',
+              solution: 'kann am Computer arbeiten und Volleyball spielen.'
+            },
+            {
+              identifier: 'four',
+              textarea: true,
+              textareaRows: 2,
+              position: {
+                top: '43%',
+                left: '63%',
+                width: '29%'
+              },
+              model: '',
+              solution: 'kann nicht Klavier und Hockey spilen.'
+            },
+            {
+              identifier: 'five',
+              textarea: true,
+              textareaRows: 3,
+              position: {
+                top: '82%',
+                left: '12%',
+                width: '39%'
+              },
+              model: '',
+              solution: 'kann Fußball am Computer am Computer am Computer am Computer arbeiten und Volleyball spielen.'
+            },
+            {
+              identifier: 'six',
+              textarea: true,
+              textareaRows: 3,
+              position: {
+                top: '82%',
+                left: '54%',
+                width: '39%'
+              },
+              model: '',
+              solution: 'kann malen und am Computer arbeiten. Sie kann nicht Hockey und Basketball spielen.'
+            }
+          ]
+        }
+      ]
+    },
     '59': {
       static: [
         {
@@ -1554,6 +2295,100 @@ module.exports = function() {
         }
       ]
     },
+    '64': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Finde die Ostereier und ergänze!',
+          image: 'pg64ex2',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Priveste imaginea, gaseste oule de Paste si scrie unde sunt. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '68%',
+                left: '28%',
+                width: '22%'
+              },
+              model: '',
+              solution: 'vor'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '72.2%',
+                left: '34%',
+                width: '16%'
+              },
+              model: '',
+              solution: 'neben'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '76.2%',
+                left: '28%',
+                width: '22%'
+              },
+              model: '',
+              solution: 'hinter'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '80.2%',
+                left: '34%',
+                width: '16%'
+              },
+              model: '',
+              solution: 'auf'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '84.2%',
+                left: '33%',
+                width: '17%'
+              },
+              model: '',
+              solution: 'im'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '84.2%',
+                left: '56%',
+                width: '19%'
+              },
+              model: '',
+              solution: 'vor'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '88.2%',
+                left: '32%',
+                width: '18%'
+              },
+              model: '',
+              solution: 'im'
+            }
+          ]
+        }
+      ]
+    },
     '65': {
       video: [
         {
@@ -1569,6 +2404,88 @@ module.exports = function() {
               bottom: '49%'
             }
           }
+        }
+      ]
+    },
+    '66': {
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Hör zu und kreuze die richtige Antwort an!',
+          image: 'pg66ex4',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '61%'
+            }
+          },
+          // audio: {
+          //   source: 'fundal1',
+          //   state: 'stopped'
+          // },
+          help: {
+            toggle: false,
+            text: 'Asculta si bifeaza raspunsul corect. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '39%',
+                left: '50.7%',
+                width: '6%',
+                height: '6.5%'
+              },
+              answerFalse: {
+                top: '54%',
+                left: '24%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '24%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '46.7%',
+                left: '50.7%',
+                width: '6%',
+                height: '6.5%'
+              },
+              answerTrue: {
+                top: '54%',
+                left: '24%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '24%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '54.3%',
+                left: '50.7%',
+                width: '6%',
+                height: '6.5%'
+              },
+              answerTrue: {
+                top: '54%',
+                left: '24%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '24%'
+              }
+            }
+          ]
         }
       ]
     },
