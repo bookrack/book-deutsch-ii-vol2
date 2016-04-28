@@ -220,6 +220,184 @@ module.exports = function() {
         }
       ]
     },
+    '11': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Wo sind die Kinder? Ergänze!',
+          image: 'pg11ex1',
+          trigger: {
+            button: {
+              top: '8%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '8%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Unde sunt copiii? Priveste imaginile si completeaza.Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '36.2%',
+                left: '76%',
+                width: '14%'
+              },
+              model: '',
+              solution: 'am Meer'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '58.5%',
+                left: '20%',
+                width: '22%'
+              },
+              model: '',
+              solution: 'auf dem Land'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '58.5%',
+                left: '71%',
+                width: '22%'
+              },
+              model: '',
+              solution: 'im Gebirge'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '81.2%',
+                left: '19%',
+                width: '16%'
+              },
+              model: '',
+              solution: 'am See'
+            }
+          ]
+        }
+      ]
+    },
+    '13': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Ergänze!',
+          image: 'pg13ex3',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '64%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Completeaza zilele saptamanii. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '39%',
+                left: '53%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Dienstag'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '48.2%',
+                left: '23%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Donnerstag'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '58.5%',
+                left: '39%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Samstag'
+            }
+          ]
+        },
+        {
+          type: 'typer',
+          title: 'Setze die Jahreszeiten ein!',
+          image: 'pg13ex4',
+          trigger: {
+            button: {
+              top: '37%'
+            },
+            zone: {
+              top: '37%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Citeste si completeaza cu anotimpul potrivit.Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '33%',
+                left: '40%',
+                width: '34%'
+              },
+              model: '',
+              solution: 'Frühling'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '44.6%',
+                left: '53%',
+                width: '36%'
+              },
+              model: '',
+              solution: 'Winter'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '56.3%',
+                left: '31%',
+                width: '37%'
+              },
+              model: '',
+              solution: 'Herbst'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '68%',
+                left: '35%',
+                width: '36%'
+              },
+              model: '',
+              solution: 'Sommer'
+            }
+          ]
+        }
+      ]
+    },
     '15': {
       static: [
         {
@@ -404,6 +582,83 @@ module.exports = function() {
       ]
     },
     '20': {
+      exercise: [
+        {
+          type: 'type',
+          title: 'Hör zu und schreib die Nummern!',
+          image: 'pg20ex2',
+          trigger: {
+            button: {
+              top: '8%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '48%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Priveste, asculta si scrie numerele. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '32.1%',
+                left: '78.5%',
+                width: '4.3%',
+                height: '3.3%'
+              },
+              model: '',
+              solution: '1'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '29.4%',
+                left: '66.3%',
+                width: '4.3%',
+                height: '3.3%'
+              },
+              model: '',
+              solution: '2'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '36.1%',
+                left: '51.7%',
+                width: '4.3%',
+                height: '3.3%'
+              },
+              model: '',
+              solution: '3'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '34.8%',
+                left: '14%',
+                width: '4.3%',
+                height: '3.3%'
+              },
+              model: '',
+              solution: '4'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '34.4%',
+                left: '30.9%',
+                width: '4.3%',
+                height: '3.3%'
+              },
+              model: '',
+              solution: '5'
+            }
+          ]
+        }
+      ],
       video: [
         {
           video: {
@@ -422,6 +677,128 @@ module.exports = function() {
       ]
     },
     '22': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Hör zu und setze  mein, meine, dein, deine  ein!',
+          image: 'pg22ex6',
+          trigger: {
+            button: {
+              top: '7%'
+            },
+            zone: {
+              top: '7%',
+              bottom: '42%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Asculta si completeaza.Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '32.5%',
+                left: '29%',
+                width: '10%'
+              },
+              model: '',
+              solution: 'mein'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '37.8%',
+                left: '30%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'dein'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '40.3%',
+                left: '27.3%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'mein'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '45%',
+                left: '40%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'Meine'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '47.5%',
+                left: '30%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'deine'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '50.3%',
+                left: '30%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'meine'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '54.8%',
+                left: '30%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'deine'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '57.4%',
+                left: '31%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'meine'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '62.2%',
+                left: '41%',
+                width: '11%'
+              },
+              model: '',
+              solution: 'Mein'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '69.8%',
+                left: '26.5%',
+                width: '10.5%'
+              },
+              model: '',
+              solution: 'dein'
+            }
+          ]
+        }
+      ],
       static: [
         {
           image: 'pg22nicht',
@@ -1011,6 +1388,136 @@ module.exports = function() {
       ]
     },
     '42': {
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Hör zu und kreuze RICHTIG oder FALSCH an!',
+          image: 'pg42ex3',
+          trigger: {
+            button: {
+              top: '73%'
+            },
+            zone: {
+              top: '73%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Asculta si bifeaza R(corect) F(fals). Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '42%',
+                left: '73%',
+                width: '8%',
+                height: '2.7%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '57%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '44.7%',
+                left: '73%',
+                width: '8%',
+                height: '2.7%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '57%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '47.3%',
+                left: '73%',
+                width: '8%',
+                height: '2.7%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '57%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '50%',
+                left: '73%',
+                width: '8%',
+                height: '2.7%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '57%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '52.7%',
+                left: '73%',
+                width: '8%',
+                height: '2.7%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '57%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '55.4%',
+                left: '73%',
+                width: '8%',
+                height: '2.7%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '57%'
+              }
+            }
+          ]
+        }
+      ],
       video: [
         {
           video: {

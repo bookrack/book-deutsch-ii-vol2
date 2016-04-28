@@ -3,6 +3,30 @@
 }
 
 .typer {
+  &--11-0 {
+    width: 70%;
+  }
+
+  &--13-0 {
+    width: 75%;
+    font-size: larger;
+    font-weight: $font-weight--bold;
+  }
+
+  &--13-1 {
+    width: 90%;
+  }
+
+  &--20-0 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  &--22-0 {
+    width: 65%;
+  }
+
   &--50-0 {
     width: 100%;
 
@@ -40,41 +64,17 @@
 }
 
 .checker {
+  &--42-0 {
+    & + .labelChecker__answer {
+      width: 35%;
+      height: 80%;
+    }
+  }
+
   &--66-0 {
     & + .labelChecker__answer {
       width: 80%;
       height: 40%;
-    }
-  }
-
-  &--29-0 {
-    & + .labelChecker__answer {
-      width: 30%;
-      height: 18%;
-    }
-
-    @at-root .page29 label[for="twotrue"] {
-      background-image: url(../img/checker--false.png);
-    }
-
-    @at-root .page29 label[for="twofalse"] {
-      background-image: url(../img/checker--true.png);
-    }
-
-    @at-root .page29 label[for="threetrue"] {
-      background-image: url(../img/checker--indeterminate.png);
-    }
-
-    @at-root .page29 label[for="threeindeterminate"] {
-      background-image: url(../img/checker--true.png);
-    }
-
-    @at-root .page29 label[for="fivetrue"] {
-      background-image: url(../img/checker--false.png);
-    }
-
-    @at-root .page29 label[for="fivefalse"] {
-      background-image: url(../img/checker--true.png);
     }
   }
 }
