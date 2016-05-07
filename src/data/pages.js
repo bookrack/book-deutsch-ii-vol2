@@ -1434,11 +1434,11 @@ module.exports = function() {
                 width: '8%',
                 height: '2.7%'
               },
-              answerFalse: {
+              answerTrue: {
                 top: '9%',
                 left: '7%'
               },
-              answerTrue: {
+              answerFalse: {
                 top: '9%',
                 left: '57%'
               }
@@ -1488,11 +1488,11 @@ module.exports = function() {
                 width: '8%',
                 height: '2.7%'
               },
-              answerFalse: {
+              answerTrue: {
                 top: '9%',
                 left: '7%'
               },
-              answerTrue: {
+              answerFalse: {
                 top: '9%',
                 left: '57%'
               }
@@ -1506,11 +1506,11 @@ module.exports = function() {
                 width: '8%',
                 height: '2.7%'
               },
-              answerFalse: {
+              answerTrue: {
                 top: '9%',
                 left: '7%'
               },
-              answerTrue: {
+              answerFalse: {
                 top: '9%',
                 left: '57%'
               }
@@ -2642,7 +2642,7 @@ module.exports = function() {
                 width: '39%'
               },
               model: '',
-              solution: 'kann Fußball am Computer am Computer am Computer am Computer arbeiten und Volleyball spielen.'
+              solution: 'kann Fußball und Tennis spielen. Er kann nicht am Computer arbeiten und Volleyball spielen.'
             },
             {
               identifier: 'six',
@@ -2655,6 +2655,26 @@ module.exports = function() {
               },
               model: '',
               solution: 'kann malen und am Computer arbeiten. Sie kann nicht Hockey und Basketball spielen.'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '43.2%',
+                left: '26.5%',
+                width: '22%'
+              },
+              model: '',
+              solution: 'Fußball'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '46.3%',
+                left: '19%',
+                width: '29%'
+              },
+              model: '',
+              solution: 'Tennis spielen.'
             }
           ]
         }
