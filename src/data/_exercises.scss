@@ -39,6 +39,10 @@
     }
   }
 
+  &--55-1 {
+    width: 88%;
+  }
+
   &--57-0 {
     width: 80%;
 
@@ -55,6 +59,39 @@
 
   &--64-0 {
     width: 80%;
+  }
+
+  &--65-0[name="one"] {
+    width: 83%;
+    letter-spacing: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #0100FD;
+    font-family: monospace;
+  }
+  &--65-0[name="two"] {
+    width: 57%;
+    letter-spacing: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #3CAF53;
+    font-family: monospace;
+  }
+  &--65-0[name="three"] {
+    width: 91%;
+    letter-spacing: 23px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #AD3C09;
+    font-family: monospace;
+  }
+  &--65-0[name="four"] {
+    width: 81%;
+    letter-spacing: 23px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #F90300;
+    font-family: monospace;
   }
 
   &--68-1 {

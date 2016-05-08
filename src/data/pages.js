@@ -2550,6 +2550,358 @@ module.exports = function() {
         }
       ]
     },
+    '55': {
+     exercise: [
+       {
+          type: 'linker',
+          image: '02',
+          title: 'Verbinde!',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '23%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Uneste imaginile cu enunturile scrise. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'cantina',
+              style: {
+                top: '10%',
+                left: '7%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '55-cantina.png'
+              },
+              solution: 'zu-mittag-essen',
+              solutionImg: {
+                src: '55-cantina.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'sala-calculatoare',
+              style: {
+                top: '35%',
+                left: '7%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '55-sala-calculatoare.png'
+              },
+              solution: 'am-computer-arbeiten',
+              solutionImg: {
+                src: '55-sala-calculatoare.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'biblioteca',
+              style: {
+                top: '60%',
+                left: '7%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '55-biblioteca.png'
+              },
+              solution: 'ein-buch-lesen',
+              solutionImg: {
+                src: '55-biblioteca.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'zu-mittag-essen',
+              style: {
+                top: '15%',
+                left: '37%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '55-zu-mittag-essen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'zeichnen-und-malen',
+              style: {
+                top: '25%',
+                left: '37%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '55-zeichnen-und-malen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'ein-buch-lesen',
+              style: {
+                top: '35%',
+                left: '37%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '55-ein-buch-lesen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'klavier-spielen',
+              style: {
+                top: '45%',
+                left: '37%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '55-klavier-spielen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'turnen',
+              style: {
+                top: '55%',
+                left: '37%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '55-turnen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'am-computer-arbeiten',
+              style: {
+                top: '65%',
+                left: '37%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '55-am-computer-arbeiten.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'sala-sport',
+              style: {
+                top: '10%',
+                left: '73%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '55-sala-sport.png'
+              },
+              solution: 'turnen',
+              solutionImg: {
+                src: '55-sala-sport.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'sala-muzica',
+              style: {
+                top: '35%',
+                left: '73%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '55-sala-muzica.png'
+              },
+              solution: 'klavier-spielen',
+              solutionImg: {
+                src: '55-sala-muzica.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'sala-pictura',
+              style: {
+                top: '60%',
+                left: '73%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '55-sala-pictura.png'
+              },
+              solution: 'zeichnen-und-malen',
+              solutionImg: {
+                src: '55-sala-pictura.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            }
+          ]
+        },
+        {
+          type: 'typer',
+          title: 'Ergänze!',
+          image: 'pg55ex1-part2',
+          trigger: {
+            button: {
+              top: '80%'
+            },
+            zone: {
+              top: '78%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Completeaza propozitiile cu enunturile scrise. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '42.5%',
+                left: '22.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'Computerraum'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '45.3%',
+                left: '22.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'Musikraum'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '45.3%',
+                left: '61.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'Klavier spielen'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '48.2%',
+                left: '25.5%',
+                width: '23%'
+              },
+              model: '',
+              solution: 'der Mensa'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '48.2%',
+                left: '61.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'zu Mittag essen'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '50.8%',
+                left: '22.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'Kunstraum'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '50.8%',
+                left: '61.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'zeichnen und malen'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '53.5%',
+                left: '25.5%',
+                width: '23%'
+              },
+              model: '',
+              solution: 'Bibliothek'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '53.5%',
+                left: '61.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'ein Buch lesen'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '56.2%',
+                left: '25.5%',
+                width: '23%'
+              },
+              model: '',
+              solution: 'Turnhalle'
+            },
+            {
+              identifier: 'eleven',
+              position: {
+                top: '56.2%',
+                left: '61.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'turnen'
+            },
+          ]
+        }
+      ]
+    },
     '56': {
       video: [
         {
@@ -2932,6 +3284,121 @@ module.exports = function() {
             }
           }
         }
+      ],
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Schreib die Namen der Monate!',
+          image: 'pg65ex2-part1',
+          trigger: {
+            button: {
+              top: '53%'
+            },
+            zone: {
+              top: '52%',
+              bottom: '23%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie numele lunilor corespunzatoare. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '39.9%',
+                left: '41.2%',
+                width: '30.3%'
+              },
+              model: '',
+              solution: 'anuar'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '44.8%',
+                left: '47.5%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'ehr'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '54.5%',
+                left: '39.5%',
+                width: '31.9%'
+              },
+              model: '',
+              solution: 'ktober'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '49.6%',
+                left: '41.8%',
+                width: '29.9%'
+              },
+              model: '',
+              solution: 'ugust'
+            }
+          ]
+        },
+        /*{
+           type: 'linker',
+           image: '02',
+           title: 'Verbinde!',
+           trigger: {
+             button: {
+               top: '59%'
+             },
+             zone: {
+               top: '52%',
+               bottom: '23%'
+             }
+           },
+           help: {
+             toggle: false,
+             text: 'Uneste lunile cu imaginea corespunzatoare. Cand ai terminat apasa pe cheita si verifica. Succes!'
+           },
+           data: [
+             {
+               identifier: 'cantina',
+               style: {
+                 top: '10%',
+                 left: '7%',
+                 width: '20%',
+                 height: 'auto'
+               },
+               image: {
+                 src: '55-cantina.png'
+               },
+               solution: 'zu-mittag-essen',
+               solutionImg: {
+                 src: '55-cantina.png'
+               },
+               sourceAnchors: [],
+               targetAnchors: ["RightMiddle"]
+             },
+             {
+               identifier: 'zu-mittag-essen',
+               style: {
+                 top: '15%',
+                 left: '37%',
+                 width: '25%',
+                 height: 'auto',
+                 color: '#8BCB6A'
+               },
+               image: {
+                 src: '55-zu-mittag-essen.png'
+               },
+               sourceAnchors: ["LeftMiddle","RightMiddle"],
+               targetAnchors: []
+             },
+           ]
+         }*/
       ]
     },
     '66': {
