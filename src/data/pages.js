@@ -1578,7 +1578,7 @@ module.exports = function() {
                 width: '40%'
               },
               model: '',
-              solution: 'Im Schrank'
+              solution: 'Im Bad'
             },
             {
               identifier: 'five',
@@ -1588,7 +1588,7 @@ module.exports = function() {
                 width: '40%'
               },
               model: '',
-              solution: 'x'
+              solution: 'Im Schrank'
             }
           ]
         }
