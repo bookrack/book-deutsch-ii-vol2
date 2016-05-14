@@ -48,6 +48,7 @@
 
     &.typer__textarea {
       width: 100%;
+      line-height: 1.9rem;
 
       & + .wb-checkmark {
         position: absolute;
@@ -94,9 +95,17 @@
     font-family: monospace;
   }
 
+  &--68-0 {
+    width: 80%;
+  }
+
   &--68-1 {
     width: 85%;
     text-align: left;
+  }
+
+  &--68-2 {
+    width: 85%;
   }
 }
 

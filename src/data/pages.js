@@ -726,6 +726,17 @@ module.exports = function() {
               },
               model: '',
               solution: '5'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '33.8%',
+                left: '37.1%',
+                width: '4.3%',
+                height: '3.3%'
+              },
+              model: '',
+              solution: '6'
             }
           ]
         }
@@ -809,7 +820,7 @@ module.exports = function() {
                 width: '11%'
               },
               model: '',
-              solution: 'Meine'
+              solution: 'meine'
             },
             {
               identifier: 'five',
@@ -1786,7 +1797,7 @@ module.exports = function() {
               identifier: 'one',
               model: '',
               position: {
-                top: '42%',
+                top: '77.5%',
                 left: '73%',
                 width: '8%',
                 height: '2.7%'
@@ -1804,7 +1815,7 @@ module.exports = function() {
               identifier: 'two',
               model: '',
               position: {
-                top: '44.7%',
+                top: '80.1%',
                 left: '73%',
                 width: '8%',
                 height: '2.7%'
@@ -1822,7 +1833,7 @@ module.exports = function() {
               identifier: 'three',
               model: '',
               position: {
-                top: '47.3%',
+                top: '82.9%',
                 left: '73%',
                 width: '8%',
                 height: '2.7%'
@@ -1840,7 +1851,7 @@ module.exports = function() {
               identifier: 'four',
               model: '',
               position: {
-                top: '50%',
+                top: '85.6%',
                 left: '73%',
                 width: '8%',
                 height: '2.7%'
@@ -1858,7 +1869,7 @@ module.exports = function() {
               identifier: 'five',
               model: '',
               position: {
-                top: '52.7%',
+                top: '88.2%',
                 left: '73%',
                 width: '8%',
                 height: '2.7%'
@@ -1876,7 +1887,7 @@ module.exports = function() {
               identifier: 'six',
               model: '',
               position: {
-                top: '55.4%',
+                top: '90.8%',
                 left: '73%',
                 width: '8%',
                 height: '2.7%'
@@ -2942,7 +2953,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Uneste imaginile cu enunturile scrise. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Uneste textul cu imaginile potrivite. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -3312,13 +3323,13 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Priveste imaginile si si ce nu stiu copiii sa faca. si ce nu stiu copiii sa faca. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Priveste imaginile si scrie ce nu stiu copiii sa faca. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               position: {
-                top: '37%',
+                top: '42.8%',
                 left: '23.5%',
                 width: '25%'
               },
@@ -3328,7 +3339,7 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '40%',
+                top: '46%',
                 left: '19%',
                 width: '29%'
               },
@@ -3340,7 +3351,7 @@ module.exports = function() {
               textarea: true,
               textareaRows: 2,
               position: {
-                top: '37%',
+                top: '42%',
                 left: '63%',
                 width: '29%'
               },
@@ -3352,7 +3363,7 @@ module.exports = function() {
               textarea: true,
               textareaRows: 2,
               position: {
-                top: '43%',
+                top: '48.2%',
                 left: '63%',
                 width: '29%'
               },
@@ -3364,7 +3375,7 @@ module.exports = function() {
               textarea: true,
               textareaRows: 3,
               position: {
-                top: '82%',
+                top: '87%',
                 left: '12%',
                 width: '39%'
               },
@@ -3376,7 +3387,7 @@ module.exports = function() {
               textarea: true,
               textareaRows: 3,
               position: {
-                top: '82%',
+                top: '87%',
                 left: '54%',
                 width: '39%'
               },
@@ -3386,7 +3397,7 @@ module.exports = function() {
             {
               identifier: 'seven',
               position: {
-                top: '43.2%',
+                top: '49.1%',
                 left: '26.5%',
                 width: '22%'
               },
@@ -3396,7 +3407,7 @@ module.exports = function() {
             {
               identifier: 'eight',
               position: {
-                top: '46.3%',
+                top: '52.2%',
                 left: '19%',
                 width: '29%'
               },
@@ -3795,10 +3806,6 @@ module.exports = function() {
               bottom: '61%'
             }
           },
-          // audio: {
-          //   source: 'fundal',
-          //   state: 'stopped'
-          // },
           help: {
             toggle: false,
             text: 'Asculta si bifeaza raspunsul corect. Cand ai terminat apasa pe cheita si verifica. Succes!'
@@ -3868,6 +3875,10 @@ module.exports = function() {
           type: 'typer',
           title: 'Hör zu und ergänze! Verwende kann / kann nicht !',
           image: 'pg68ex8',
+          audio: {
+            source: 'pg68ex8',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '8%'
@@ -4213,7 +4224,7 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '38.8%',
+                top: '38.7%',
                 left: '15%',
                 width: '42%'
               },
@@ -4223,7 +4234,7 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '44.7%',
+                top: '44.5%',
                 left: '15%',
                 width: '42%'
               },
@@ -4233,7 +4244,7 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '50.5%',
+                top: '50.3%',
                 left: '15%',
                 width: '42%'
               },
@@ -4243,7 +4254,7 @@ module.exports = function() {
             {
               identifier: 'five',
               position: {
-                top: '56.4%',
+                top: '56.3%',
                 left: '15%',
                 width: '42%'
               },
@@ -4253,7 +4264,7 @@ module.exports = function() {
             {
               identifier: 'six',
               position: {
-                top: '60.1%',
+                top: '60%',
                 left: '15%',
                 width: '42%'
               },
